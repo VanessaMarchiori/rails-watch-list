@@ -1,4 +1,8 @@
 
 <h1><%= @list.name %></h1>
 
-<%= link_to "Back to Lists", lists_path %>
+<%= link_to "Back to Lists", root_path %>
+
+<div id="create-bookmark-form" class="form-control">
+  <%= render 'create_bookmark_form' %>
+</div>
